@@ -1,5 +1,5 @@
 html {
-    font-family: "Klee One", cursive;
+    font-family: "Klee One";
 }
 
 form {
@@ -9,5 +9,23 @@ form {
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 1em;
-    
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    font: 1em "Klee One";
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid #999;
 }

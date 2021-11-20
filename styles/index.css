@@ -1,19 +1,13 @@
 html {
-    font-size: 10px;
     font-family: "Klee One", cursive;
 }
 
-body {
-    border: 3px solid black;
-}
-
-h1 {
-    font-size: 60px;
-    text-align: left;
-}
-
-p, li {
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 1px;
+form {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 500px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    
 }

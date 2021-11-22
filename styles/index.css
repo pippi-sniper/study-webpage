@@ -29,3 +29,21 @@ input, textarea {
     box-sizing: border-box;
     border: 1px solid #999;
 }
+
+input: focus,
+textarea: focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 15em;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+button {
+    margin-left: .5em;
+}
